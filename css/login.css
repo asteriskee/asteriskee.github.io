@@ -1,11 +1,4 @@
 /* From Uiverse.io by Yaya12085 */ 
-.center-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh; /* fills the screen vertically */
-  background: #f0f0f0; /* optional, just for contrast */
-}
 .form {
   background-color: #fff;
   display: block;
