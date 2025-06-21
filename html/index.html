@@ -56,25 +56,44 @@
 
 </body>
   <!-- From Uiverse.io by reglobby --> 
-<div
-  aria-label="User Login Button"
-  tabindex="0"
-  role="button"
-  class="user-profile"
->
-  <div class="user-profile-inner">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Main Page</title>
+</head>
+<body style="margin: 0; font-family: sans-serif; background: #f0f0f0; display: flex; align-items: center; justify-content: center; height: 100vh;">
+
+  <!-- Login Button -->
+  <div
+    onclick="window.location.href='login.html'"
+    tabindex="0"
+    role="button"
+    aria-label="User Login Button"
+    style="
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 20px;
+      background-color: #4F46E5;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    "
+  >
     <svg
-      aria-hidden="true"
       xmlns="http://www.w3.org/2000/svg"
+      fill="white"
       viewBox="0 0 24 24"
+      width="24"
+      height="24"
+      style="flex-shrink: 0;"
     >
-      <g data-name="Layer 2" id="Layer_2">
-        <path
-          d="m15.626 11.769a6 6 0 1 0 -7.252 0 9.008 9.008 0 0 0 -5.374 8.231 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 9.008 9.008 0 0 0 -5.374-8.231zm-7.626-4.769a4 4 0 1 1 4 4 4 4 0 0 1 -4-4zm10 14h-12a1 1 0 0 1 -1-1 7 7 0 0 1 14 0 1 1 0 0 1 -1 1z"
-        ></path>
-      </g>
+      <path d="M15.626 11.769a6 6 0 1 0 -7.252 0 9.008 9.008 0 0 0 -5.374 8.231 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 9.008 9.008 0 0 0 -5.374-8.231zm-7.626-4.769a4 4 0 1 1 4 4 4 4 0 0 1 -4-4zm10 14h-12a1 1 0 0 1 -1-1 7 7 0 0 1 14 0 1 1 0 0 1 -1 1z"/>
     </svg>
-    <p>Log In</p>
+    <p style="margin: 0; font-size: 16px;">Log In</p>
   </div>
-</div>
+
+</body>
 </html>
